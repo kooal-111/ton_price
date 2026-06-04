@@ -1,4 +1,4 @@
-"""Загрузка конфигурации из .env и переменных окружения."""
+"""Load configuration from .env file and environment variables."""
 
 from __future__ import annotations
 
@@ -10,6 +10,7 @@ load_dotenv()
 
 
 def _parse_chat_id(value: str) -> int | str:
+    """Parse chat ID as int if numeric, otherwise keep as string."""
     if value and value.lstrip("-").isdigit():
         return int(value)
     return value

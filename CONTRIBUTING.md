@@ -1,34 +1,36 @@
-# Вклад в проект
+# Contributing to TON Price Tracker
 
-Спасибо за интерес к проекту!
+Thank you for your interest in contributing!
 
-## Как внести изменения
+## How to Contribute
 
-1. Сделайте `fork` репозитория.
-2. Создайте новую ветку для вашей фичи или исправления:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
    ```bash
    git checkout -b feature/your-feature-name
    ```
-3. Внесите изменения и убедитесь, что код работает.
-4. Создайте `pull request` с описанием сделанных изменений.
+3. Make your changes and ensure the code works.
+4. Submit a pull request with a description of your changes.
 
-## Что улучшать
+## Areas for Improvement
 
-- документацию и примеры запуска
-- обработку ошибок и устойчивость публикации
-- поддержку других монет или валют
-- модульные тесты
+- Documentation and usage examples
+- Error handling and publication reliability
+- Support for additional coins or currencies
+- Unit tests and test coverage
+- Performance optimization
 
-## Стиль кода
+## Code Style
 
 - Python 3.11+
-- PEP8
-- Используйте понятные и простые имена
+- PEP8 compliance
+- Clear and descriptive variable names
+- Type hints where applicable
 
-## Сообщение об ошибке
+## Reporting Issues
 
-Если нашли баг, создайте issue с:
-- описанием проблемы
-- ожидаемым поведением
-- шагами для воспроизведения
-- логами, если есть
+If you find a bug, please create an issue with:
+- Description of the problem
+- Expected behavior
+- Steps to reproduce
+- Relevant logs or error messages
